@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-for first_number in range(0, 10):
-    for second_number in range(first_number + 1, 10):
-        if first_number == 8 and second_number == 9:
-            print("{}{}".format(first_number, second_number))
+for first_num in range(0, 10):
+    for second_num in range(first_num + 1, 10):
+        if first_num == 8 and second_num == 9:
+            print("{}{}".format(first_num, second_num))
         else:
-            print("{}{}, ".format(first_number, second_number), end='')
+            print("{}{}, ".format(first_num, second_num), end='')
 
