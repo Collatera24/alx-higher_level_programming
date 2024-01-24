@@ -7,7 +7,7 @@ def safe_print_list(my_list=[], x=0):
         my_list (list): The list to print elements from.
         x (int): The number of elements of my_list to print.
 
-    Return:
+    Returns:
         The number of elements printed.
     """
     num = 0
@@ -17,5 +17,5 @@ def safe_print_list(my_list=[], x=0):
             num += 1
         except IndexError:
             break
-        print("")
-        Return
+        print("")  # Move this line outside the loop
+        return num
